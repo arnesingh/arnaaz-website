@@ -170,3 +170,39 @@ footer {
     transform: translateY(-8px);
     box-shadow: 0 12px 25px rgba(0,0,0,0.15);
 }
+
+.hero {
+    height: 100vh;
+    background: url('assets/images/hero.jpg') center/cover no-repeat;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.hero-overlay {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 60px;
+    border-radius: 10px;
+}
+
+.hero h1 {
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 22px;
+    margin-bottom: 25px;
+}
+
+.hero-btn {
+    padding: 14px 30px;
+    background: orange;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+}
