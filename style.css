@@ -1,48 +1,79 @@
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 60px;
     background: #0b2a4a;
     color: white;
 }
 
-header {
-    display: flex;
-    justify-content: space-between;
-    padding: 20px 40px;
-    background: #071d34;
-}
-
 nav a {
-    margin-left: 20px;
-    color: white;
+    margin-left: 25px;
     text-decoration: none;
+    color: white;
+    font-weight: bold;
 }
 
 .hero {
+    height: 90vh;
+    background: linear-gradient(to right, #0b2a4a, #154d80);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    padding: 100px 20px;
-    background: linear-gradient(#0b2a4a, #0f3b63);
+}
+
+.hero h1 {
+    font-size: 48px;
+}
+
+.btn {
+    margin-top: 20px;
+    display: inline-block;
+    padding: 12px 25px;
+    background: orange;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
 }
 
 .section {
-    padding: 60px 40px;
+    padding: 70px 60px;
     text-align: center;
+}
+
+.light {
+    background: #f4f4f4;
+    color: #333;
+}
+
+.dark {
+    background: #0b2a4a;
+    color: white;
 }
 
 .cards {
     display: flex;
-    justify-content: center;
     gap: 20px;
+    justify-content: center;
     flex-wrap: wrap;
 }
 
 .card {
-    background: #123d66;
+    background: white;
+    color: #333;
     padding: 20px 30px;
     border-radius: 8px;
+    width: 200px;
 }
 footer {
-    text-align: center;
     padding: 20px;
+    text-align: center;
     background: #071d34;
+    color: white;
 }
