@@ -9,7 +9,10 @@
 <body>
 
 <header class="header">
-    <div class="logo">Arnaaz Infotech</div>
+    <div class="logo">
+    <img src="assets/logo.png" alt="Arnaaz Infotech Logo">
+</div>
+
     <nav>
         <a href="#about">About</a>
         <a href="#services">Services</a>
@@ -49,9 +52,15 @@
 
 <section id="contact" class="section dark">
     <h2>Contact Us</h2>
-    <p>📞 +91 9779673500</p>
-    <p>📍 Gurdaspur, India</p>
+    <form action="https://formspree.io/f/mojdgwbn" method="POST" class="contact-form">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <input type="text" name="phone" placeholder="Your Phone">
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+    </form>
 </section>
+
 
 <footer>
     © 2026 Arnaaz Infotech Pvt. Ltd. | Gurdaspur

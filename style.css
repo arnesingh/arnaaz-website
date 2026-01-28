@@ -77,3 +77,31 @@ footer {
     background: #071d34;
     color: white;
 }
+
+.logo img {
+    height: 50px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 400px;
+    margin: auto;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.contact-form button {
+    padding: 12px;
+    background: orange;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
