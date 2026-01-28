@@ -117,3 +117,8 @@ footer {
     text-align: center;
     padding: 20px;
 }
+
+.card img {
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
