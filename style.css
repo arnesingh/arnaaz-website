@@ -1,6 +1,5 @@
 html {
     scroll-behavior: smooth;
-    scroll-padding-top: 90px; /* height of header */
 }
 .container {
     max-width: 1200px;
@@ -15,6 +14,7 @@ html {
 }
 
 body {
+    padding-top: 90px; /* header height */
     background: #f4f6f9;
 }
 
@@ -24,15 +24,13 @@ body {
 
 
 .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 80px;
-    background: #0b2a4a;
-    color: white;
-    position: sticky;
+    position: fixed;
     top: 0;
+    width: 100%;
+    background: #0b2a4a;
+    z-index: 1000;
 }
+
 
 .logo img {
     height: 55px;
