@@ -304,3 +304,57 @@ img {
     box-shadow: 0 6px 15px rgba(0,0,0,0.2);
     z-index: 999;
 }
+
+.testimonials {
+    background: #f7f9fc;
+    text-align: center;
+}
+
+.testi-title {
+    font-size: 34px;
+    margin-bottom: 10px;
+}
+
+.testi-sub {
+    margin-bottom: 40px;
+    color: #555;
+}
+
+.testi-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+}
+
+.testi-card {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    text-align: left;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.08);
+}
+
+.testi-head {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.avatar {
+    background: #0b2a4a;
+    color: white;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.stars {
+    margin-top: 15px;
+    color: orange;
+    font-size: 18px;
+}
