@@ -18,8 +18,8 @@ body {
     background: #f4f6f9;
 }
 
-section {
-    scroll-margin-top: 90px;
+.section {
+    padding: 90px 120px 70px 120px;
 }
 
 
