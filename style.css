@@ -1,10 +1,10 @@
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 90px; /* height of header */
+}
 .container {
     max-width: 1200px;
     margin: auto;
-}
-
-html {
-    scroll-behavior: smooth;
 }
 
 * {
@@ -17,6 +17,11 @@ html {
 body {
     background: #f4f6f9;
 }
+
+section {
+    scroll-margin-top: 90px;
+}
+
 
 .header {
     display: flex;
