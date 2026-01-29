@@ -210,4 +210,27 @@ footer {
     text-decoration: none;
     border-radius: 6px;
     font-weight: bold;
+    transition: 0.3s ease;
+}
+
+.hero-btn:hover {
+    background: #ff8c00;
+    transform: translateY(-3px);
+}
+
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section:nth-child(even) {
+    background: #f7f9fc;
+}
+
+.section p {
+    font-size: 18px;
+    line-height: 1.7;
+    color: #444;
 }
