@@ -33,8 +33,10 @@ body {
 
 
 .logo img {
-    height: 55px;
+    height: 60px;
+    width: auto;
 }
+
 
 nav a {
     margin-left: 30px;
@@ -223,6 +225,7 @@ footer {
 
 
 .header .container {
+    height: 80px;
     display: flex;
     justify-content: space-between;
     align-items: center;
