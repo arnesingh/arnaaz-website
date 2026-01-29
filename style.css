@@ -177,8 +177,8 @@ footer {
 }
 
 .hero {
-    height: 100vh;
-    background: url('assets/images/hero.jpg') center/cover no-repeat;
+    height: 80vh;
+    background: url('assets/images/hero.webp') center/cover no-repeat;
     position: relative;
     display: flex;
     justify-content: center;
