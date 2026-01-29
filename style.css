@@ -234,3 +234,22 @@ footer {
     line-height: 1.7;
     color: #444;
 }
+
+.about-flex {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-top: 40px;
+}
+
+.about-flex img {
+    width: 50%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.about-flex p {
+    width: 50%;
+    font-size: 18px;
+    line-height: 1.7;
+}
